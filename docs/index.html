@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA BONNER - Notícias de IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fas fa-robot"></i> AI News Agent</h1>
+                <p class="subtitle">Notícias de IA para Desenvolvedores e Empresas</p>
+                <div class="update-info">
+                    <i class="fas fa-clock"></i>
+                    Última atualização: 07/10/2025 às 18:24
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="stats-section">
+                <div class="stat-card">
+                    <i class="fas fa-newspaper"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">18</span>
+                        <span class="stat-label">Notícias Analisadas</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-globe"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Fontes</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-brain"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Análise IA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="alto">Alta Relevância</button>
+                <button class="filter-btn" data-filter="medio">Média Relevância</button>
+                <button class="filter-btn" data-filter="baixo">Baixa Relevância</button>
+            </div>
+
+            <div class="news-grid" id="newsGrid">
+                
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Wall Street analysts explain how AMD’s own stock will pay for OpenAI’s billions in chip purchases</h2>
+                
+                <div class="news-summary">
+                    A AMD e a OpenAI anunciaram uma parceria ampliada, na qual a OpenAI pagará por suas compras de chips da AMD com ações da empresa. A OpenAI receberá até 160 milhões de ações da AMD em troca de ajudar a refinar os processadores Instinct da AMD e comprar 6 gigawatts de capacidade de cálculo.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A OpenAI pagará por suas compras de chips da AMD com ações da empresa, em vez de dinheiro.
+* A parceria é valiosa bilhões de dólares para a AMD.
+* A OpenAI receberá até 160 milhões de ações da AMD se atingir certos marcos, incluindo aumentos no preço das ações.
+* Se a OpenAI alcançar todos os seus objetivos e não vender as ações ao longo do tempo, poderia ter uma participação valiosa bilhões de dólares.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/wall-street-analysts-explain-how-amds-own-stock-will-pay-for-openais-billions-in-chip-purchases/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Google launches its AI vibe-coding app Opal in 15 more countries</h2>
+                
+                <div class="news-summary">
+                    Google lança sua aplicação de códigos de vibração com IA, Opal, em 15 países adicionais. A ferramenta permite criar mini-aplicativos web usando prompts de texto e agora está disponível em mais países, incluindo o Brasil.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. Expansão global: Opal está agora disponível em 15 novos países, expandindo sua capacidade de criação de aplicativos para um público mais amplo.
+2. Melhorias na performance: A empresa melhorou a velocidade da criação de aplicativos, tornando o processo mais eficiente e fácil de usar.
+3. Novas funcionalidades: Opal agora permite executar passos em paralelo, permitindo fluxos de trabalho complexos com vários passos serem executados simultaneamente.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/google-launches-its-ai-vibe-coding-app-opal-in-15-more-countries/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">How Otter.ai’s CEO is pushing the company to be more than just a meeting scribe</h2>
+                
+                <div class="news-summary">
+                    A Otter.ai, empresa de inteligência artificial (IA) que oferece assistente de reuniões, está expandindo sua oferta para além da simples transcrição de reuniões. O CEO, Sam Liang, deseja que a empresa se torne uma fonte principal para empresas e um novo conjunto de produtos é o primeiro passo nessa evolução.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A Otter.ai lança um conjunto de ferramentas para empresas, incluindo API, MCP server e agente AI, para melhorar a integração de dados de reuniões em workflows.
+* O objetivo é ajudar as empresas a obter mais valor das reuniões registradas.
+* O CEO, Sam Liang, deseja que a empresa evolua de um simples notetaker para uma base de conhecimento corporativa.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/how-otter-ais-ceo-is-pushing-the-company-to-be-more-than-just-a-meeting-scribe/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Anthropic plans to open India office, eyes tie-up with billionaire Ambani</h2>
+                
+                <div class="news-summary">
+                    A startup de inteligência artificial (IA) Anthropic planeja estabelecer uma presença mais forte na Índia, abrindo um escritório em Bengaluru e explorando uma parceria com a Reliance Industries, empresa do bilionário Mukesh Ambani.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. A Anthropic pretende expandir sua presença na Índia, após estabelecer uma base no país.
+2. A startup está em conversações com a Reliance Industries para criar um parceria e ampliar o acesso ao seu assistente de IA Claude na Índia.
+3. A Reliance Industries já tem experiência em colaboração com outras empresas de tecnologia, incluindo Google e Meta.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/anthropic-plans-to-open-india-office-eyes-tie-up-with-billionaire-ambani/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Anthropic and IBM announce strategic partnership</h2>
+                
+                <div class="news-summary">
+                    A IBM está se alinhando com a Anthropic para integrar modelos de linguagem artificial (LLMs) na sua plataforma de desenvolvimento, tornando mais fácil o uso da inteligência artificial em software. Esta parceria visa fornecer soluções empresariais de ponta para a construção e manutenção de agentes AI.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A IBM está adicionando modelos de LLM Claude da Anthropic à sua plataforma de desenvolvimento;
+* O primeiro produto a utilizar Claude será o ambiente de desenvolvimento integrado (IDE) da IBM, disponível para um grupo seleto de clientes;
+* A Anthropic também anunciou uma parceria com a Deloitte para implementar Claude em sua força de trabalho global de quase 500.000 pessoas;
+* Uma pesquisa recente encontrou que as empresas preferem modelos Claude sobre qualquer outro modelo AI, incluindo o OpenAI.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/anthropic-and-ibm-announce-strategic-partnership/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">OpenAI and the race for AI-driven commerce</h2>
+                
+                <div class="news-summary">
+                    A OpenAI apresentou sua visão para um comércio impulsionado por inteligência artificial (IA), demonstrando como aplicativos podem ser integrados à ChatGPT, permitindo que usuários realizem compras e consultas directamente na plataforma. Isso abre a porta para uma ampla variedade de oportunidades comerciais, incluindo recomendações de produtos e execução de comandos.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. A OpenAI lançou Instant Checkout, um sistema de compra agente que serve como infraestrutura de pagamento para compras únicas, conectando-se a lojas que vendem através de Shopify, Etsy ou Stripe.
+2. Agora, aplicativos podem ser integrados à ChatGPT, permitindo que provedores de serviços construam suas próprias interfaces na plataforma.
+3. A ChatGPT pode se tornar um portal para a maior parte do gasto desejável dos usuários, desde viagens até alimentos preparados e produtos de estoque.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/openai-and-the-race-for-ai-driven-commerce/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="medio">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">07/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #f39c12">
+                        <i class="fas fa-star"></i>
+                        Medio
+                    </div>
+                </div>
+                
+                <h2 class="news-title">xAI hires former Morgan Stanley banker Anthony Armstrong as CFO</h2>
+                
+                <div class="news-summary">
+                    A empresa de inteligência artificial xAI, fundada pelo empresário Elon Musk, nomeou o ex-banqueiro da Morgan Stanley, Anthony Armstrong, como seu novo chefe financeiro. A escolha de Armstrong segue uma série de saídas de executivos importantes na empresa e sua parceira, a X.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. xAI agora tem um CFO após a saída do antigo responsável financeiro, Mike Liberatore, em julho.
+2. Armstrong foi nomeado para o cargo após trabalhar com a empresa por várias semanas.
+3. A escolha de Armstrong segue uma série de saídas de executivos importantes na empresa e sua parceira.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/07/xai-hires-former-morgan-stanley-banker-anthony-armstrong-as-cfo/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">06/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Deloitte goes all in on AI — despite having to issue a hefty refund for use of AI</h2>
+                
+                <div class="news-summary">
+                    A Deloitte, empresa de serviços profissionais e consultoria, está investindo em inteligência artificial (IA) apesar de ter tido que emitir um grande reembolso por uso indevido da tecnologia. A notícia é interessante pois a empresa anunciou um acordo com a Anthropic no mesmo dia em que foi divulgado que ela teria que pagar uma indenização para o Departamento de Emprego e Relações do Trabalho da Austrália, após uma revisão contendo erros feita por sua própria equipe.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A Deloitte está investindo em IA com a Anthropic para criar produtos e recursos de compliance para setores regulamentados como serviços financeiros, saúde e serviços públicos.
+* A empresa planeja criar diferentes "personas" de agentes AI para representar os departamentos dentro da empresa, incluindo contabilistas e desenvolvedores de software.
+* A Deloitte irá emitir um reembolso por uma revisão contendo erros feita para o Departamento de Emprego e Relações do Trabalho da Austrália.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="medio">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">06/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #f39c12">
+                        <i class="fas fa-star"></i>
+                        Medio
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Taylor Swift fans accuse singer of using AI in her Google scavenger hunt videos</h2>
+                
+                <div class="news-summary">
+                    A notícia refere-se à campanha de marketing da cantora Taylor Swift para promover seu novo álbum, "The Life of a Showgirl". A campanha consiste em um caça-palavras online que envolveu fãs em uma busca por vídeos criados especialmente para o lançamento do álbum. Alguns fãs suspeitaram que os vídeos fossem gerados pela inteligência artificial (IA), o que levou a discussões e especulações sobre o uso de tecnologia AI na campanha.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A campanha de marketing da Taylor Swift envolveu um caça-palavras online com 12 vídeos criados especialmente para promover o álbum "The Life of a Showgirl";
+* Alguns fãs suspeitaram que os vídeos fossem gerados pela inteligência artificial (IA);
+* A campanha incluiu a participação de Google e YouTube, que forneceram recursos para a promoção do álbum;
+* A discussão sobre o uso de IA na campanha levou a especulações sobre o papel da tecnologia em marketing e comunicação.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/06/taylor-swift-fans-accuse-singer-of-using-ai-in-her-google-scavenger-hunt-videos/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">TechCrunch</span>
+                        <span class="date">06/10/2025</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">OpenAI ramps up developer push with more powerful models in its API</h2>
+                
+                <div class="news-summary">
+                    A OpenAI lançou atualizações no seu API, incluindo o modelo de linguagem GPT-5 Pro, o modelo de geração de vídeo Sora 2 e um modelo de voz menor e mais barato. Essas atualizações buscam atrair desenvolvedores para o ecossistema da OpenAI, oferecendo ferramentas para construir aplicativos em ChatGPT e agentes personalizados.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. A OpenAI lançou o GPT-5 Pro, um modelo de linguagem mais poderoso que pode ser usado em aplicações financeiras, jurídicas e de saúde, que requerem alta precisão e profundidade de razão.
+2. O modelo de voz "gpt-realtime mini" é 70% mais barato do que o modelo de voz avançado anterior, mas oferece a mesma qualidade de voz e expressividade.
+3. O Sora 2 permite criar vídeos com realismo físico, sincronização de som e controle criativo, tornando-o uma ferramenta poderosa para desenvolvedores de aplicativos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://techcrunch.com/2025/10/06/openai-ramps-up-developer-push-with-more-powerful-models-in-its-api/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: Autor não encontrado</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">The US is set to cancel funding for two major direct-air-capture plants</h2>
+                
+                <div class="news-summary">
+                    A União Americana está prestes a cancelar financiamento para dois grandes projetos de captura direta do ar, que originalmente receberiam mais de US$ 1 bilhão em subsídios governamentais. Essas tecnologias buscam absorver dióxido de carbono da atmosfera e ajudar a combater o aquecimento global.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* O Departamento de Energia dos EUA está prestes a cancelar financiamento para dois projetos de captura direta do ar, totalizando cerca de US$ 50 milhões;
+* Os projetos em questão são o South Texas Direct Air Capture Hub, da Occidental Petroleum, e o Project Cypress, uma colaboração entre Battelle, Climeworks e Heirloom;
+* A cancelação dos subsídios não está clara, mas pode significar renegociação das premiações ou total cancelamento do financiamento.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/07/1125207/the-us-is-set-to-cancel-funding-for-two-major-direct-air-capture-plants/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Casey Crownhartarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">AI toys are all the rage in China—and now they’re appearing on shelves in the US too</h2>
+                
+                <div class="news-summary">
+                    A notícia destaca o crescimento do mercado de brinquedos com IA na China, que está se expandindo para outros países, incluindo EUA. A tendência é a criação de brinquedos que podem conversar com crianças, tornando-se um item popular em casa e fora.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* O mercado de brinquedos com IA na China é projetado para ultrapassar ¥100 bilhões ($14 bilhões) até 2030.
+* Existem mais de 1.500 empresas chinesas que desenvolvem brinquedos com IA, incluindo a Haivivi e a FoloToy.
+* Brinquedos como o BubblePal, que permite que crianças conversem com seus animais de peluche favoritos, estão ganhando popularidade em casa e fora.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Rhiannon Williamsarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">The Download: extracting lithium, and what we still don’t know about Sora</h2>
+                
+                <div class="news-summary">
+                    A notícia apresenta dois temas relacionados à inteligência artificial (IA) e tecnologia. O primeiro é a empresa Lilac Solutions, que está desenvolvendo uma tecnologia para extrair litio de rochas de forma menos ambientalmente danosa, o que poderia aumentar a oferta doméstica de litio em um momento crítico para o setor. O segundo tema é o aplicativo Sora, da OpenAI, que apresenta vídeos gerados por IA e permite que os usuários criem avatares realistas de si mesmos.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* Lilac Solutions desenvolve tecnologia para extrair litio de rochas de forma menos ambientalmente danosa;
+* O aplicativo Sora, da OpenAI, apresenta vídeos gerados por IA e permite que os usuários criem avatares realistas de si mesmos;
+* A explosiva popularidade do aplicativo Sora levanta questões sobre sua sustentabilidade a longo prazo, o custo para a OpenAI e a possibilidade de ações legais por uso indevido de conteúdo copyright.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/07/1125075/the-download-extracting-lithium-and-what-we-still-dont-know-about-sora/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Rhiannon Williamsarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">The three big unanswered questions about Sora</h2>
+                
+                <div class="news-summary">
+                    A OpenAI lançou o aplicativo Sora, que apresenta um fluxo infinito de vídeos exclusivamente gerados por inteligência artificial (IA). O app permite criar um "câmera" do usuário, um avatar hiperrealista que imita a aparência e voz da pessoa, e inserir cameos de outras pessoas em seus próprios vídeos. Embora alguns críticos tenham criticado o aplicativo como uma forma de "slop machine", ele rapidamente alcançou o topo do App Store da Apple.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. O aplicativo Sora apresenta um fluxo infinito de vídeos gerados por IA, cada um com até 10 segundos de duração.
+2. O app permite criar e compartilhar cameos hiperrealistas do usuário, que podem ser inseridas em vídeos criados por outras pessoas.
+3. Embora alguns críticos tenham criticado o aplicativo como uma forma de "slop machine", ele rapidamente alcançou o topo do App Store da Apple.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/07/1124998/the-three-big-unanswered-questions-about-sora/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Rhiannon Williamsarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="medio">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #f39c12">
+                        <i class="fas fa-star"></i>
+                        Medio
+                    </div>
+                </div>
+                
+                <h2 class="news-title">The Download: introducing the 10 climate tech companies to watch for 2025</h2>
+                
+                <div class="news-summary">
+                    A notícia apresenta a lista de 10 empresas de tecnologia do clima mais promissoras para o ano de 2025, segundo o MIT Technology Review. Além disso, Bill Gates compartilha sua visão sobre a importância da ingenuidade em combater o aquecimento global.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A lista apresenta empresas que trabalham em decarbonizar setores econômicos importantes, como energia e produção de alimentos;
+* O MIT Technology Review destaca a urgência do problema climático e a importância da tecnologia para mitigá-lo;
+* Bill Gates enfatiza a capacidade humana de inventar soluções e reduzir emissões;</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/06/1124939/the-download-introducing-the-10-climate-tech-companies-to-watch-for-2025/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Rhiannon Williamsarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">Bill Gates: Our best weapon against climate change is ingenuity</h2>
+                
+                <div class="news-summary">
+                    Bill Gates afirma que a ingenuidade é o melhor instrumento contra mudanças climáticas. Ele destaca que, apesar do progresso feito em fontes de energia renovável e veículos elétricos, ainda falta muito para atingir os objetivos estabelecidos no Acordo de Paris. No entanto, Gates vê isso como um motivador para a inovação e investimento em tecnologias limpas.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. Bill Gates acredita que a ingenuidade é o melhor instrumento contra mudanças climáticas.
+2. Ele destaca que a falta de tecnologia adequada é um obstáculo para atingir os objetivos do Acordo de Paris.
+3. Gates afirma que, apesar da falta de progresso, há motivos para otimismo, pois a humanidade tem capacidade para inventar e inovar.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/06/1124265/bill-gates-ingenuity-climate-change-tech-investment/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Casey Crownhartarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">2025 Climate Tech Companies to Watch: HiNa Battery Technology and its effort to commercialize salt cells</h2>
+                
+                <div class="news-summary">
+                    A HiNa Battery Technology desenvolveu tecnologia de baterias utilizando sódio, elemento amplamente disponível que pode ser extraído do sal marinho. A empresa busca comercializar células de sódio como alternativa às células de lítio, que enfrentam riscos de cadeia de fornecimento devido à alta demanda e escassez de lítio.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>* A HiNa Battery Technology desenvolveu tecnologia de baterias utilizando sódio como alternativa às células de lítio.
+* O sódio é 400 vezes mais abundante que o lítio e pode ser encontrado em grandes quantidades em depósitos de sal e água do mar.
+* A empresa já está massificando a produção de células de sódio para uso em armazenamento de energia e veículos elétricos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/06/1124270/2025-climate-tech-companies-to-watch-hina-battery-salt-cells/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Casey Crownhartarchive page</span>
+                </div>
+            </article>
+            
+            <article class="news-card" data-relevancia="alto">
+                <div class="news-header">
+                    <div class="source-info">
+                        <span class="source">MIT Technology Review</span>
+                        <span class="date">Data não disponível</span>
+                    </div>
+                    <div class="relevancia-badge" style="color: #e74c3c">
+                        <i class="fas fa-fire"></i>
+                        Alto
+                    </div>
+                </div>
+                
+                <h2 class="news-title">How we picked promising climate tech companies in an especially unsettling year</h2>
+                
+                <div class="news-summary">
+                    A MIT Technology Review publicou sua lista de empresas de tecnologia climática a seguir, apesar da incerteza e dos desafios do momento. A lista prioriza empresas que desenvolvem soluções para reduzir emissões de gases estufa ou entrega produtos que ajudam comunidades a mitigar os efeitos dos clima.
+                </div>
+                
+                <div class="analysis-sections">                                                                    
+                    <div class="analysis-section">
+                        <h3><i class="fas fa-list"></i> Pontos-Chave</h3>
+                        <div class="pontos-chave">
+                            <p>1. A MIT Technology Review prioriza empresas que desenvolvem tecnologias para reduzir emissões de gases estufa ou entrega produtos que ajudam comunidades a mitigar os efeitos do clima.
+2. A lista exclui empresas ligadas à extração e queima de combustíveis fósseis, mesmo se elas tiverem uma divisão em renováveis, além de empresas envolvidas com trabalho forçado ou práticas problemáticas.
+3. O processo de seleção das empresas inclui a colaboração entre jornalistas, editores e especialistas do setor.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-footer">
+                    <a href="https://www.technologyreview.com/2025/10/06/1124275/2025-climate-tech-companies-to-watch-methodology/" target="_blank" class="read-more">
+                        <i class="fas fa-external-link-alt"></i>
+                        Ler notícia completa
+                    </a>
+                    <span class="author">Por: By Casey Crownhartarchive page</span>
+                </div>
+            </article>
+            
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Paulo Marcelo - AI News Agent.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
